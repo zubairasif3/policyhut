@@ -556,13 +556,14 @@ ul.ht-social li {}
 
 ul.ht-social li a {
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #1A47A9;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-    padding-top: 7px;
+    padding-top: 10px;
+    padding-left: 2px;
 }
 
 ul.ht-social li a i {
@@ -946,12 +947,12 @@ ul.eat-features li {
 .insuarance-plan-area {
     position: relative;
     padding: 100px 0px;
-    background-color: #e5ebf5;
+    background-color: #fff;
 }
 
 .insuarance-plan-area .section-head {
     text-align: center;
-    max-width: 560px;
+    max-width: 595px;
     margin: 0px auto 50px;
 }
 
@@ -977,7 +978,6 @@ ul.plan-lists li {
     height: 230px;
     margin-right: -3px;
     margin-left: -3px;
-    margin-bottom: -2px;
     vertical-align: top;
 }
 
@@ -1376,6 +1376,7 @@ ul.plan-lists li {
     position: relative;
     padding: 100px 0px;
     z-index: 1;
+    background: #e9e1da;
 }
 
 img.wcu-bg {
@@ -1610,7 +1611,7 @@ ul.client-lists li {
 /*----------------------------------------*/
 .testimonial-area {
     position: relative;
-    background-color: #e5ebf5;
+    background-color: #e9e1da;
     padding: 120px 0px;
 }
 
@@ -1628,6 +1629,7 @@ ul.client-lists li {
 .single-testimonial .st-text {
     position: relative;
     padding: 30px;
+    min-height: 230px;
 }
 
 .single-testimonial .st-text p {
@@ -1702,6 +1704,9 @@ ul.client-lists li {
     line-height: 16px;
     color: #3E4767;
 }
+.single-testimonial .st-footer .st-author .sta-text p i {
+    color: #0033A0;
+}
 
 .testimonial-nav {
     position: relative;
@@ -1727,7 +1732,7 @@ ul.client-lists li {
 .blog-area {
     position: relative;
     padding: 120px 0px;
-    background-color: #f3f6f9;
+    background-color: #fff;
 }
 
 .blog-area .section-head {
@@ -1744,6 +1749,13 @@ ul.client-lists li {
     position: relative;
     max-width: 370px;
     margin-bottom: 25px;
+}
+/* .single-blog button {
+    border: 0px;
+    background-color: transparent;
+} */
+.single-blog img { 
+    border-radius: 8px;
 }
 
 .single-blog h4 {
@@ -2439,7 +2451,7 @@ button.accordion-button::after {
 /*----------------------------------------*/
 footer.footer-area {
     position: relative;
-    background-color: #0033A0;
+    background-color: #2d2d2d;
     padding: 100px 0px 40px;
 }
 
@@ -2455,6 +2467,8 @@ footer.footer-area {
 img.footer-logo {
     position: relative;
     margin: 5px auto 20px;
+    width: 100%;
+    max-width: 140px;
 }
 
 .fl-single-w {
@@ -3115,4 +3129,49 @@ a.spp-btn:hover {
     object-fit: cover;
     width: 100%;
 }
-/* ============Billing Page CSS End============ */
+/* ============Company Client CSS End============ */
+
+/*----------------------------------------*/
+/*  #. Youtube Modal CSS 
+/*----------------------------------------*/
+.youtube-video .modal-dialog {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    padding: 0 15px;
+    height: 100%;
+    max-width: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+iframe#youtubevideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.youtube-video .modal-footer {
+    border: none;
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+.youtube-video .modal-content {
+    background: none !important;
+    border: none;
+}
+
+/* ============ Youtube Modal CSS End============ */
