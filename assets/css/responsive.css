@@ -138,6 +138,9 @@
         font-size: 36px;
         line-height: 44px;
     }
+    .hero-btn {
+        margin-top: 10px;
+    }
     
     .btn-style-1,.btn-style-2,.btn-style-3 {
         font-size: 14px !IMPORTANT;
@@ -354,6 +357,14 @@
 
     .bdst-share h4 {
         margin-left: 10px;
+    }
+    
+    .get-in-touch-area .section-head h3 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 20px;
+        line-height: 26px;
     }
 }
 
